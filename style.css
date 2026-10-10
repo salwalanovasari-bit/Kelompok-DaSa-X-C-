@@ -160,9 +160,9 @@ html {
   border-color: #ffffff;
 }
 body {
-  cursor: url('cursor.png.jpeg'), auto;
+  cursor: url('cursor.png') 16 16, auto;
 }
 
 button, a, .nav-card {
-  cursor: url('cursor.png.jpeg'), pointer;
+  cursor: url('cursor.png') 16 16, pointer;
 }
