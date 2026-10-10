@@ -167,7 +167,7 @@ button, a, .nav-card {
   cursor: url('cursor.png') 16 16, pointer;
 }
 
-img {
+.logo {
   width: 450px;
   max-width: 90%;
   height: auto;
