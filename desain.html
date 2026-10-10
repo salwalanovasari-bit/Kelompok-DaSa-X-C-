@@ -1,18 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pen</title>
-  </head>
-  <body>
-<h1>Welcome</h1>
-    <ul>
-      <li><a href="index.html">Beranda</li>
-      <li>Desain</li>
-      <li><a href="produk.html">Produk</li>
-    </ul>
-    <script src="./script.js"></script>
-  </body>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaSaCoral - Desain 🎨</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="ocean-bg">
+    <div class="sun-beam"></div>
+    <div class="bubble bubble1"></div>
+    <div class="bubble bubble2"></div>
+    <div class="bubble bubble3"></div>
+    <div class="bubble bubble4"></div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use href="#gentle-wave" x="48" y="0" fill="rgba(255, 255, 255, 0.2)" />
+        <use href="#gentle-wave" x="48" y="3" fill="rgba(255, 255, 255, 0.4)" />
+        <use href="#gentle-wave" x="48" y="5" fill="rgba(255, 255, 255, 0.1)" />
+        <use href="#gentle-wave" x="48" y="7" fill="rgba(255, 255, 255, 0.6)" />
+      </g>
+    </svg>
+  </div>
+
+  <main class="content">
+    
+    <div class="header-container">
+      <span class="badge">🪸 Coral Gallery</span>
+      <h1 class="main-title">DaSaCoral 🪸</h1>
+      <p class="sub-title">A little deep-sea love note just for you ✨</p>
+    </div>
+
+    <nav class="coral-nav">
+      <a href="index.html" class="nav-card">
+        <span class="card-icon">🪸</span>
+        <span class="card-text">Home</span>
+      </a>
+      <a href="desain.html" class="nav-card active">
+        <span class="card-icon">🎨</span>
+        <span class="card-text">Desain</span>
+      </a>
+      <a href="produk.html" class="nav-card">
+        <span class="card-icon">🐚</span>
+        <span class="card-text">Product</span>
+      </a>
+    </nav>
+
+    <div class="page-container">
+      <div class="page-card">
+        <h2>Galeri Desain 🎨</h2>
+        <p>Di sini kamu bisa menampilkan karya atau galeri foto desain estetik kamu!</p>
+      </div>
+    </div>
+
+  </main>
+
+</body>
 </html>
