@@ -4,23 +4,6 @@ html {
     url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
 }
 
-h1 {
-    text-align: center;
-    color: #e66b91;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 55px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-
-    -webkit-text-stroke: 1.5px #d9577e;
-    text-shadow:
-        2px 2px 0px #f5c3d2,
-        -1px -1px 0px #d9577e,
-        1px -1px 0px #d9577e,
-        -1px 1px 0px #d9577e,
-        1px 1px 0px #d9577e;
-        }
 
 .ocean-bg {
   position: fixed;
@@ -84,4 +67,36 @@ h1 {
 @keyframes move-forever {
   0% { transform: translate3d(-90px, 0, 0); }
   100% { transform: translate3d(85px, 0, 0); }
+}
+
+.header-container {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+}
+
+.sub-title {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 300;
 }
