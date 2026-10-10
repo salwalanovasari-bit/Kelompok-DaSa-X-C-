@@ -167,10 +167,24 @@ button, a, .nav-card {
   cursor: url('cursor.png') 16 16, pointer;
 }
 
-.logo {
-  width: 250px;
-  max-width: 90%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
+.logo-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coral-logo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.coral-logo:hover {
+  transform: scale(1.08) rotate(3deg);
 }
