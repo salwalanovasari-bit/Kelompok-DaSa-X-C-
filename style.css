@@ -166,3 +166,11 @@ body {
 button, a, .nav-card {
   cursor: url('cursor.png') 16 16, pointer;
 }
+
+img {
+  width: 450px;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
