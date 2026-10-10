@@ -178,11 +178,10 @@ button, a, .nav-card {
 .coral-logo {
   width: 130px;
   height: 130px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  object-fit: contain;
+  background: transparent;
+  filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.3)); 
+  transition: transform 0.3s ease;
 }
 
 .coral-logo:hover {
