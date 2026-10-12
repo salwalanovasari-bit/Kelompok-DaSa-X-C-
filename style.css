@@ -231,6 +231,6 @@ html {
   text-align: justify;
 }
 
-body, a, button, .nav-card, .note-card {
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='84' height='84' style='font-size:62px'><text y='60'>🐬</text></svg>") 42 42, auto !important;
+, body, a, button {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 100 100'><text x='10' y='80' font-size='80'>🐬</text></svg>") 32 32, auto !important;
 }
