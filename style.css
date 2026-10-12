@@ -167,8 +167,8 @@ html {
 }
 
 .coral-logo {
-  width: 210px;
-  height: 210px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.8);
