@@ -230,3 +230,11 @@ html {
   font-weight: 300;
   text-align: justify;
 }
+
+body {
+  cursor: url('lumba.png') 24 24, auto !important;
+}
+
+button, a, .nav-card, .note-card {
+  cursor: url('lumba.png') 24 24, pointer !important;
+}
