@@ -190,39 +190,41 @@ html {
   -webkit-backdrop-filter: blur(12px);
   border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 20px;
-  padding: 20px 24px;
-  margin: 25px auto;
-  width: 90%;
-  max-width: 500px;
+  padding: 28px 25px;
+  margin: 30px auto;
+  width: 95%;
+  max-width: 900px;
   color: #ffffff;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3), 0 8px 24px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
 }
 .note-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0px 20px rgba(255, 255, 255, 0.5), 0 12px 28px rgba(0, 0, 0, 0.22);
 }
 
 .note-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
 .note-icon {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .note-card h3 {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin: 0;
+  color: #ffffff;
 }
 
 .note-card p {
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.95);
   margin: 0;
   font-weight: 300;
