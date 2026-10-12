@@ -231,17 +231,16 @@ html {
   text-align: justify;
 }
 
-body, a, button, .note-card {
-  cursor: default; 
+body, a, button, .note-card, .nav-card {
+  cursor: none !important;
 }
 
 .custom-cursor {
   position: fixed;
   top: 0;
   left: 0;
-  font-size: 45px; 
-  pointer-events: none; 
-  transform: translate(-50%, -50%);
-  transition: transform 0.05s ease-out; 
-  z-index: 999999; 
+  font-size: 45px;
+  pointer-events: none; /* Supaya tetap bisa klik tombol di bawahnya */
+  transform: translate(-20%, -20%); /* Menyesuaikan posisi klik mouse */
+  z-index: 999999;
 }
