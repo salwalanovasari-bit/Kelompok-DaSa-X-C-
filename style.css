@@ -232,5 +232,5 @@ html {
 }
 
 body, a, button, .nav-card, .note-card {
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='84' height='84' style='font-size:26px'><text y='26'>🐬</text></svg>") 18 18, auto !important;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='84' height='84' style='font-size:62px'><text y='60'>🐬</text></svg>") 42 42, auto !important;
 }
