@@ -231,6 +231,17 @@ html {
   text-align: justify;
 }
 
-, body, a, button {
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 100 100'><text x='10' y='80' font-size='80'>🐬</text></svg>") 32 32, auto !important;
+body, a, button, .note-card {
+  cursor: default; 
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 45px; 
+  pointer-events: none; 
+  transform: translate(-50%, -50%);
+  transition: transform 0.05s ease-out; 
+  z-index: 999999; 
 }
