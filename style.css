@@ -231,16 +231,18 @@ html {
   text-align: justify;
 }
 
-body, a, button, .note-card, .nav-card {
+/* PAKSA SEMUA ELEMEN DI WEB AGAR KURSOR ASLINYA HILANG TOTAL */
+*, body, html, a, button, .note-card, .nav-card, input, textarea {
   cursor: none !important;
 }
 
+/* PENGATURAN KURSOR LUMBA-LUMBA UTAMA */
 .custom-cursor {
   position: fixed;
   top: 0;
   left: 0;
   font-size: 45px;
-  pointer-events: none; /* Supaya tetap bisa klik tombol di bawahnya */
-  transform: translate(-20%, -20%); /* Menyesuaikan posisi klik mouse */
-  z-index: 999999;
+  pointer-events: none !important; /* PENTING: Supaya klik mouse tetap tembus ke tombol */
+  transform: translate(-20%, -20%);
+  z-index: 2147483647; /* Angka z-index tertinggi agar selalu di lapisan paling atas */
 }
