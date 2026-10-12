@@ -59,6 +59,15 @@
     </div>
 
   </main>
+<!-- KURSOR PENYU LAUT -->
+  <div class="custom-cursor">🐢</div>
 
+  <script>
+    const cursor = document.querySelector('.custom-cursor');
+    window.addEventListener('mousemove', (e) => {
+      cursor.style.left = `${e.clientX}px`;
+      cursor.style.top = `${e.clientY}px`;
+    });
+  </script>
 </body>
 </html>
